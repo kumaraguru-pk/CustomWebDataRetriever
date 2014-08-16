@@ -1,0 +1,25 @@
+﻿Build started 3/6/2014 9:22:56 AM.
+     1>Project "C:\Users\kkandasw\Downloads\CustomWebDataRetriever\CustomWebDataRetriever\CustomWebDataRetriever\CustomWebDataRetriever.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DataExtracter.cpp DataExtractManager.cpp HTTPAsyncDownloader.cpp stdafx.cpp XMLParser.cpp
+         XMLParser.cpp
+         stdafx.cpp
+         HTTPAsyncDownloader.cpp
+         DataExtractManager.cpp
+         DataExtracter.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\kkandasw\Downloads\CustomWebDataRetriever\CustomWebDataRetriever\Debug\CustomWebDataRetriever.lib" cpprest120d_1_4.lib xmllite.lib /LIBPATH:"C:\Program Files (x86)\Microsoft Cpp REST SDK for VS 2013 v1.4\SDK\lib\x86\Debug" /NOLOGO Debug\DataExtracter.obj
+         Debug\DataExtractManager.obj
+         Debug\HTTPAsyncDownloader.obj
+         Debug\stdafx.obj
+         Debug\XMLParser.obj
+     1>xmllite.lib(XmlLite.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in cpprest120d_1_4.lib(cpprest120d_1_4.dll); second definition ignored
+     1>xmllite.lib(XmlLite.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+     1>stdafx.obj : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         CustomWebDataRetriever.vcxproj -> C:\Users\kkandasw\Downloads\CustomWebDataRetriever\CustomWebDataRetriever\Debug\CustomWebDataRetriever.lib
+     1>Done Building Project "C:\Users\kkandasw\Downloads\CustomWebDataRetriever\CustomWebDataRetriever\CustomWebDataRetriever\CustomWebDataRetriever.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:32.43
